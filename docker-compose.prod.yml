@@ -23,7 +23,7 @@ services:
     restart: unless-stopped
 
   keycloak:
-    image: ghcr.io/skill-wanderer/keycloak-sso/keycloak-skill-wanderer:latest
+    image: ghcr.io/mindycore/keycloak-sso/keycloak-mindycore:latest
     container_name: keycloak-prod
     command: start
     environment:

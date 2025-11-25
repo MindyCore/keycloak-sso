@@ -1,17 +1,16 @@
-# Docker Compose override for custom Keycloak image with Skill-Wanderer theme
-version: '3.8'
+# Docker Compose override for custom Keycloak image with Mindycore theme
 
 services:
   keycloak:
     # Use the GitHub Container Registry image or build locally
     # Option 1: Use pre-built image from GitHub Container Registry
-    image: ghcr.io/skill-wanderer/keycloak-sso/keycloak-skill-wanderer:latest
+    image: ghcr.io/mindycore/keycloak-sso/keycloak-mindycore:latest
     
     # Option 2: Build locally (comment out the image line above and uncomment below)
     # build:
     #   context: .
     #   dockerfile: Dockerfile
-    # image: keycloak-skill-wanderer:latest
+    # image: keycloak-mindycore:latest
     
     # Remove the volume mount since the theme is now built into the image
     volumes: []
