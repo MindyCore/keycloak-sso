@@ -13,7 +13,7 @@
         </#list>
     </#if>
     <title>${msg("loginTitle",(realm.displayName!''))}</title>
-    <link rel="icon" href="${url.resourcesPath}/img/skill-wanderer-favicon.ico" />
+    <link rel="icon" href="${url.resourcesPath}/img/favicon-96x96.png" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome 6 Free -->
@@ -40,7 +40,7 @@
     </#if>
 </head>
 
-<body class="${properties.kcBodyClass!}">
+<body class="${properties.kcBodyClass!} login-pf-body">
   <div class="${properties.kcLoginClass!}">
     <div id="kc-container" class="${properties.kcContainerClass!}">
       <div id="kc-container-wrapper" class="${properties.kcContainerWrapperClass!}">
