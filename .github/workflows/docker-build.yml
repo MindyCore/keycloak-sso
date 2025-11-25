@@ -1,5 +1,6 @@
 name: Build and Push Keycloak Skill-Wanderer Image
 
+
 on:
   push:
     branches:
